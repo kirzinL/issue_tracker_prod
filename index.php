@@ -38,10 +38,10 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
 </head>
 <body>
     <main>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark bg-gradient">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger bg-gradient">
         <div class="container">
             <a class="navbar-brand" href="#">
-                Simple Issue Tracker
+                <img src="assets\drakester-logo.png" width=180 class="mb-2">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -78,6 +78,12 @@ $page = isset($_GET['page']) ? $_GET['page'] : 'home';
                     <li><a class="dropdown-item" href="./?page=manage_account">Manage Account</a></li>
                     <li><a class="dropdown-item" href="Actions.php?a=logout">Logout</a></li>
                 </ul>
+                
+                 
+                  <span class="p-3 fs-6">Develop by JL</span>
+                 
+                   
+              
             </div>
             </div>
         </div>
